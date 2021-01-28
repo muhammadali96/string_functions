@@ -20,3 +20,10 @@ def title_capitalise_string(str):
 def test_title_capitalise_string():
     assert title_capitalise_string("hello") == "Hello"
     assert title_capitalise_string("hello world!!") == "Hello World!!"
+
+def reverse_string(str):
+    return str[::-1]
+
+def test_reverse_string():
+    assert reverse_string("hello") == "olleh"
+    assert reverse_string("Hello World!") == "!dlroW olleH"

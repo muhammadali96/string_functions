@@ -13,3 +13,10 @@ def test_decapitalise_string():
     assert decapitalise_string("HELLO") == "hello"
     assert decapitalise_string("HELLO WORLD") == "hello world"
     assert decapitalise_string("TODAY I AM 25!") == "today i am 25!"
+
+def title_capitalise_string(str):
+    return str.title()
+
+def test_title_capitalise_string():
+    assert title_capitalise_string("hello") == "Hello"
+    assert title_capitalise_string("hello world!!") == "Hello World!!"

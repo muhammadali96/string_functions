@@ -1,3 +1,3 @@
 def capitalise_string(str):
-    return str
+    return str.upper()
 
